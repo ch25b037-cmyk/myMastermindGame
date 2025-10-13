@@ -118,3 +118,55 @@ input[type="radio"]:checked{
 #play{
    position: absolute;
 }
+/* 🌍 Default (desktop) styles already exist above */
+
+/* 📱 Mobile styles */
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(180deg, black, red);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #board {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 5px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 1rem;
+    padding: 0.8rem;
+    margin: 0.5rem auto;
+  }
+
+  #hint, #display {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
