@@ -23,10 +23,11 @@
 }
 button{
    background: crimson;
-   color: white;
+   color: black;
    border: 2px solid black;
    padding: 1rem 2rem;
    font-size: large;
+   font-weight: bolder;
    cursor: pointer;
    transition: 0.2s;
    width: 150px; 
