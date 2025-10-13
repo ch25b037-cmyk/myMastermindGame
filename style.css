@@ -60,7 +60,7 @@ h1{
 }
 body{
    position: relative;
-   background: linear-gradient(60deg,black,red);
+   background: linear-gradient(360deg,black,red);
    background-repeat: no-repeat;
    
 }
