@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+   padding: 5px;
+}
+#board{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   border: 0cap;
+   border-radius: 10px;
+   margin: 100px;
+   position: relative;
+   transition: 0.2s;
+}
+#display,#hint{
+   font-size: large;
+   color: black;
+   text-align: center;
+   font-family: "Poppins";
+   text-transform: capitalize;
+}
+button{
+   background: crimson;
+   color: white;
+   border: 2px solid black;
+   padding: 1rem 2rem;
+   font-size: large;
+   cursor: pointer;
+   transition: 0.2s;
+   width: 150px; 
+}
+#check{
+   justify-content: center;
+   display: flex;
+   text-align: center;
+}
+button{
+width:150px;
+text-align: center;
+justify-content: center;
+display: flex;
+position: relative;
+}
+
+button:hover{
+   
+   color:white;
+   transition: 0.2s;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 0 0 40px crimson;
+}
+h1{
+   font-size: xx-large;
+   color: black;
+   text-align: center;
+   font-family: "Poppins";
+}
+body{
+   position: relative;
+   background: linear-gradient(60deg,black,red);
+   background-repeat: no-repeat;
+   
+}
+input{
+   font-size: large;
+   padding: 1rem;
+   border: 1px solid black;
+   transition: 0.2s;
+}
+label{
+   font-size: xx-large;
+   font-weight: bold;
+   text-transform: capitalize;
+
+}
+input[type="radio"]:checked{
+   background: black;
+   transition: 0.2s;
+   outline: none;
+   font-size: xx-large;
+   gap:1.2rem;
+
+}
+.row{
+   display:none;
+}
+.rules{
+   display:none;
+   font-size: large;
+}
+
+.btn1{
+   display: none;
+}
+#rules{
+   font-size: xx-large;
+}
+
+.btn{
+   display:none;
+}
+
+  input[type="radio"] {
+    transform: scale(2);
+    accent-color: blue; 
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  
+.play{
+   display: none;
+ 
+}
+#play{
+   position: absolute;
+}

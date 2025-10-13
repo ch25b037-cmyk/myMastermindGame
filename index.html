@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">Mastermind</h1>
+    
+    <p id="display"> </p>
+    <p id="hint" ></p>
+    
+    <button id="play">PLAY</button><br><br><br><br>
+    <button id="btn1">RULES</button>
+    <div id='rules' class="rules">
+      <p class="rules"> <ul><li>
+        Guess the sequence of colors
+      </li>
+    <li>
+       Black accounts for no. of colors correct but positions incorrect
+    </li>
+  <li>White accounts for the correct color in the correct position</li>
+<li>Total no. attempts are 6 to find the correct answer</li></ul></p>
+    </div>
+    <div id="board" class="board">
+      <div id="row1" class="row">
+        
+        <label for="radio11">
+          <input
+            type="radio"
+            id="radio11"
+            name="color1"
+            value="red"
+          />red</label
+        >
+        <label for="radio12">
+          <input
+            type="radio"
+            id="radio12"
+            name="color1"
+            value="blue"
+          />blue</label
+        >
+        <label for="radio13">
+          <input
+            type="radio"
+            id="radio13"
+            name="color1"
+            value="green"
+          />green</label
+        >
+        <label for="radio14">
+          <input
+            type="radio"
+            id="radio14"
+            name="color1"
+            value="yellow"
+          />yellow</label
+        >
+        <label for="radio15">
+          <input
+            type="radio"
+            id="radio15"
+            name="color1"
+            value="orange"
+          />orange</label
+        >
+        <label for="radio16">
+          <input
+            type="radio"
+            id="radio16"
+            name="color1"
+            value="brown"
+          />brown</label
+        >
+      </div>
+    
+      <div id="row2" class="row">
+        <label for="radio21">
+          <input
+            type="radio"
+            id="radio21"
+            name="color2"
+            value="red"
+          required/>red</label
+        >
+        <label for="radio22">
+          <input
+            type="radio"
+            id="radio22"
+            name="color2"
+            value="blue"
+          />blue</label
+        >
+        <label for="radio23">
+          <input
+            type="radio"
+            id="radio23"
+            name="color2"
+            value="green"
+          />green</label
+        >
+        <label for="radio24">
+          <input
+            type="radio"
+            id="radio24"
+            name="color2"
+            value="yellow"
+          />yellow</label
+        >
+        <label for="radio25">
+          <input
+            type="radio"
+            id="radio25"
+            name="color2"
+            value="orange"
+          />orange</label
+        >
+        <label for="radio26">
+          <input
+            type="radio"
+            id="radio26"
+            name="color2"
+            value="brown"
+          />brown</label
+        >
+      </div>
+      <div id="row3" class="row">
+        <label for="radio31">
+          <input
+            type="radio"
+            id="radio31"
+            name="color3"
+            value="red"
+          required/>red</label
+        >
+        <label for="radio32">
+          <input
+            type="radio"
+            id="radio32"
+            name="color3"
+            value="blue"
+          />blue</label
+        >
+        <label for="radio33">
+          <input
+            type="radio"
+            id="radio33"
+            name="color3"
+            value="green"
+          />green</label
+        >
+        <label for="radio34">
+          <input
+            type="radio"
+            id="radio34"
+            name="color3"
+            value="yellow"
+          />yellow</label
+        >
+        <label for="radio35">
+          <input
+            type="radio"
+            id="radio35"
+            name="color3"
+            value="orange"
+          />orange</label
+        >
+        <label for="radio36">
+          <input
+            type="radio"
+            id="radio36"
+            name="color3"
+            value="brown"
+          />brown</label
+        >
+      </div>
+      <div id="row4" class="row">
+        <label for="radio41">
+          <input
+            type="radio"
+            id="radio41"
+            name="color4"
+            value="red"
+          required/>red</label
+        >
+        <label for="radio42">
+          <input
+            type="radio"
+            id="radio42"
+            name="color4"
+            value="blue"
+          />blue</label
+        >
+        <label for="radio43">
+          <input
+            type="radio"
+            id="radio43"
+            name="color4"
+            value="green"
+          />green</label
+        >
+        <label for="radio44">
+          <input
+            type="radio"
+            id="radio44"
+            name="color4"
+            value="yellow"
+          />yellow</label
+        >
+        <label for="radio45">
+          <input
+            type="radio"
+            id="radio45"
+            name="color4"
+            value="orange"
+          />orange</label
+        >
+        <label for="radio46">
+          <input
+            type="radio"
+            id="radio46"
+            name="color4"
+            value="brown"
+          />brown</label
+        >
+      </div>
+      <div id="check">
+      <button id="btn" class="btn">CHECK</button>
+      </div>
+    </div>
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br>
+    <script src="script.js"></script>
+  </body>
+</html>
