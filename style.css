@@ -104,11 +104,57 @@ input[type="radio"]:checked{
    display:none;
 }
 
-  input[type="radio"] {
+  input[value="red"] {
     transform: scale(2);
-    accent-color: blue; 
+    clip-path: circle(100%);
+    accent-color:crimson;  
     cursor: pointer;
     margin-right: 8px;
+        border-color: black;
+
+  }
+  input[value="blue"] {
+    transform: scale(2);
+    clip-path: circle(50%);
+    accent-color:blue;  
+    cursor: pointer;
+    margin-right: 8px;
+       border-color: black;
+  }
+  input[value="green"] {
+    transform: scale(2);
+    clip-path: circle(50%);
+    accent-color:green;  
+    cursor: pointer;
+    margin-right: 8px;
+        border-color: black;
+
+  }
+  input[value="yellow"] {
+    transform: scale(2);
+    clip-path: circle(50%);
+    accent-color:yellow;  
+    cursor: pointer;
+    margin-right: 8px;
+        border-color: black;
+
+  }
+  input[value="orange"] {
+    transform: scale(2);
+    clip-path:circle(100%);
+    accent-color:orange;  
+    cursor: pointer;
+    margin-right: 8px;
+        border-color: black;
+
+  }
+  input[value="brown"] {
+    transform: scale(2);
+    clip-path: circle(50%);
+    accent-color:brown;  
+    cursor: pointer;
+    margin-right: 8px;
+       border-color: black;
   }
 
   
