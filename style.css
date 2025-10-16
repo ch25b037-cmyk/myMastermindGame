@@ -180,6 +180,7 @@ input[type="radio"]:checked{
     display: block;
    justify-content: center;
    text-align: center;
+   margin:auto;
   }
 
   h1 {
@@ -200,6 +201,7 @@ input[type="radio"]:checked{
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
+    display: none;
   }
 
   label {
