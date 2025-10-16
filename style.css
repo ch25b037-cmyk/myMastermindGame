@@ -15,11 +15,10 @@
    transition: 0.2s;
 }
 #head{
-   display: block;
+   display: flex;
    justify-content: center;
    text-align: center;
-   margin-left: 25%;
-   margin-right: 25%;
+   margin-top: -30px;
 
 }
 #display,#hint{
@@ -32,13 +31,15 @@
 button{
    background: crimson;
    color: black;
-   border: 2px solid black;
+
    padding: 1rem 2rem;
    font-size: large;
    font-weight: bolder;
    cursor: pointer;
    transition: 0.2s;
-   width: 150px; 
+   width: 350px; 
+   background: linear-gradient(360deg,orange,red);
+   
   
 }
 button:hover{ 
@@ -66,13 +67,14 @@ h1{
    font-family: "Poppins";
 }
 #design{
-   
-   border-color: black;
-   border: 2px solid black;
    transform : translateX(50%) ;
    transform : translateY(50%) ;
    z-index: -1;
    background: linear-gradient(135deg,red,orange);
+   display: block;
+   width: 600px;
+   text-align: center;
+   justify-content: center;
    
 }
 body{
