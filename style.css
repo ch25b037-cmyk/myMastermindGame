@@ -65,18 +65,14 @@ h1{
    color: black;
    text-align: center;
    font-family: "Poppins";
+   background-color:yellow;
 }
 #design{
-   transform : translateX(50%) ;
-   transform : translateY(50%) ;
-   z-index: -1;
    background: linear-gradient(135deg,red,orange);
    display: block;
    width: 600px;
-   text-align: center;
-   justify-content: center;
-   
 }
+
 body{
    position: relative;
    background: linear-gradient(360deg,black,red);
